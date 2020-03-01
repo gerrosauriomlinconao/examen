@@ -1,0 +1,53 @@
+Requerimientos para poder ejecutar los Scripts:
+
+Instalación
+---------------------------------------------------------------------
+Instalar Python:
+https://www.python.org/
+
+Una vez instalado.
+Instalar las siguientes librerias desde cmd, estando en C:\
+Nota: En caso de no funcionar el pip install puede ir desde el cmd a la carpeta donde se instalo Python en
+c:\user\xxxx\AppData\Local\Programs\Python\Python-XXX\Scripts\
+Y desde ahi ejecutar el pip instal ........
+
+1 - Selenium:
+pip install -U selenium o
+
+2 - Behave:
+pip install -U behave
+
+3 - Hamcrest:
+pip install -U pyhamcrest
+
+4 - Requests
+pip install -U requests
+
+
+Para la ejecución del Ejercicio 1:
+Desde cmd ir a la carpeta del proyecto donde se haya descargado, ejemplo:
+C:\QueadMinds\ML
+Luego ir a features:
+C:\QuadMinds\ML\features>
+Ejecutar el siguiente comando:
+behave ejercicio.feature --no-capture
+
+Luego de la ejecución:
+Se verá en la misma pantalla de ejecución del cmd los resultados correspondientes.
+
+Para la ejecución del Ejercicio 2:
+Desde cmd ir a la carpeta del proyecto donde se haya descargado, ejemplo:
+C:\QueadMinds\ML
+Luego ir a Ml Ejer 2:
+C:\QuadMinds\ML Ejer 2>>
+Ejecutar:
+python Principal.py
+
+Los resultados se veran en pantalla al finaliza la ejecución.
+
+Tiempo Consumido:
+Un día y medio:
+8 hs y 4hs el siguiente.
+
+Cualquier duda o consulta, mi mail es: mlinconao@gmail.com
+

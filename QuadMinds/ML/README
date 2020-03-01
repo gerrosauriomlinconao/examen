@@ -1,0 +1,35 @@
+Requerimientos para poder ejecutar el script:
+
+Instalación
+---------------------------------------------------------------------
+Instalar Python:
+https://www.python.org/
+
+Una vez instalado.
+Instalar las siguientes librerias desde cmd, estando en C:\
+Nota: En caso de no funcionar el pip install puede ir desde el cmd a la carpeta donde se instalo Python en
+c:\user\xxxx\AppData\Local\Programs\Python\Python-XXX\Scripts\
+Y desde ahi ejecutar el pip instal ........
+
+1 - Selenium:
+pip install -U selenium o
+
+2 - Behave:
+pip install -U behave
+
+3 - Hamcrest:
+pip install -U pyhamcrest
+
+Para la ejecución:
+Desde cmd ir a la carpeta del proyecto donde se haya descargado, ejemplo:
+C:\QueadMinds\ML
+Luego ir a features:
+C:\QuadMinds\ML\features>
+Ejecutar el siguiente comando:
+behave ejercicio.feature --no-capture
+
+Luego de la ejecución:
+Se verá en la misma pantalla de ejecución del cmd los resultados correspondientes.
+
+Cualquier duda o consulta, mi mail es: mlinconao@gmail.com
+
